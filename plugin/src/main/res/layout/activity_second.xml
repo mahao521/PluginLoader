@@ -4,10 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.moudle.plugin.SecondActivity">
+    tools:context="com.moudle.pluginloader.SecondActivity">
 
     <Button
         android:text="按钮"
+        android:onClick="click"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
